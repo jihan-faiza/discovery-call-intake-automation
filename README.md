@@ -41,6 +41,7 @@ The workflow consists of:
 3. The submitted information is mapped to the corresponding columns in Google Sheets.
 4. A new row is created automatically in the Discovery Call Tracker.
 5. Each new record receives a default `New` lead status and a `Not Checked` duplicate status.
+
 This creates a central record of incoming enquiries and removes the need for manual copy-and-paste during data capture.
 
 ### Workflow Screenshot
