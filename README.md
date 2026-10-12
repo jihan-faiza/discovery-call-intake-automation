@@ -41,7 +41,11 @@ The workflow consists of:
 3. The submitted information is mapped to the corresponding columns in Google Sheets.
 4. A new row is created automatically in the Discovery Call Tracker.
 5. Each new record receives a default `New` lead status and a `Not Checked` duplicate status.
+### Workflow Screenshot
 
+![Zapier workflow connecting Google Forms to Google Sheets](screenshots/zapier-workflow.png)
+
+*The Zap captures new form responses and creates a row in the discovery call tracker.*
 This creates a central record of incoming enquiries and removes the need for manual copy-and-paste during data capture.
 
 ## 4. Handling Data Quality Challenges
@@ -69,6 +73,12 @@ The test data included:
 **Consent handling:** The submission without consent was clearly flagged for review rather than treated as permission to contact the person.
 
 These data-cleaning and review steps were performed separately from the basic Zapier intake workflow.
+### Discovery Call Tracker
+
+![Discovery Call Tracker showing sample submissions and data quality flags](screenshots/discovery-call-tracker-1.png) 
+![Discovery Call Tracker showing sample submissions and data quality flags](screenshots/discovery-call-tracker-2.png)
+
+*The tracker provides a central view of submissions, lead status, duplicate flags, and missing information.*
 
 ## 5. Outcome
 
